@@ -9,7 +9,7 @@ const Portfolio = () => {
       <a href={object.url} target="_blank" rel="noreferrer">
         <div
           id="portfolio-item"
-          className="mx-5 mb-10 hover:scale-105 opacity-80 hover:opacity-100 transition-all cursor-pointer"
+          className="mx-5 mb-[100px] sm:mb-10 hover:scale-105 opacity-80 hover:opacity-100 transition-all cursor-pointer"
           key={key}
         >
           <div
@@ -28,9 +28,11 @@ const Portfolio = () => {
                 {object.name}
               </h3>
               <p className="text-balance">{object.text}</p>
-              <p className="sm:pl-5">
-                <span className="text-slate-100">{`>> `}</span>What I made:{" "}
-                {object.contribution}
+              <p>
+                <span className="lato-bold-italic">What I made:</span>{" "}
+                <span className="lato-regular-italic">
+                  {object.contribution}
+                </span>
               </p>
             </div>
           </div>
