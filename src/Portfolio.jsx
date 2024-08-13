@@ -24,7 +24,7 @@ const Portfolio = () => {
               />
             </div>
             <div id="portfolio-text">
-              <h3 className="lato-bold text-lg text-slate-100">
+              <h3 className="lato-bold text-lg text-slate-500">
                 {object.name}
               </h3>
               <p className="text-balance">{object.text}</p>

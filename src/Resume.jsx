@@ -7,9 +7,9 @@ const Resume = () => {
   resumeMap.forEach((object, key) => {
     resumeItems.push(
       <div id="resume-item" className="mb-5">
-        <h4 className="text-lg lato-bold text-slate-200">
+        <h4 className="text-lg lato-bold text-slate-600">
           {object.publication}
-          <span className="text-slate-300"> • {object.title}</span>
+          <span className="text-slate-500"> • {object.title}</span>
         </h4>
         <p>{object.text}</p>
       </div>
