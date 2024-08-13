@@ -50,7 +50,7 @@ export const resumeMap = new Map([
   [
     "boston",
     {
-      title: "Newsroom Developer",
+      title: "Newsroom Developer (present)",
       publication: "Boston Globe",
       text: "I work with journalists from all newsroom departments to make their stories interactive. This includes coding news games, trackers, landing pages, and scrollytelling experiences.",
     },
