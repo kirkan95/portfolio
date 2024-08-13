@@ -20,7 +20,7 @@ export const resumeMap = new Map([
     {
       title: "Associate Editor for Media and Design",
       publication: "Providence Magazine",
-      text: "I worked on the print design of our quarterly magazine. I also produced podcasts as the audio engineer.",
+      text: "I designed the print edition of our quarterly magazine. I also produced podcasts as the audio engineer.",
     },
   ],
   [
@@ -28,7 +28,7 @@ export const resumeMap = new Map([
     {
       title: "Editorial Production Specialist",
       publication: "University of Pittsburgh",
-      text: "I handled web things like CMS management and newsletter/product design for Pittwire. I started ramping up my developer and data skills on the side.",
+      text: "I managed our CMS and was in charge of newsleetter design. I started ramping up my developer and data skills on the side.",
     },
   ],
   [
@@ -36,7 +36,7 @@ export const resumeMap = new Map([
     {
       title: "Data Visualization Reporter",
       publication: "Houston Chronicle",
-      text: "I did data analysis and visualization for the Chronicle's data team, in addition to writing and reporting on data-related stories.",
+      text: "I performed data analysis and visualization for the Chronicle's data team, in addition to writing and reporting on data-related stories.",
     },
   ],
   [
@@ -44,7 +44,7 @@ export const resumeMap = new Map([
     {
       title: "Data Visualization Developer",
       publication: "Houston Chronicle",
-      text: "I made interactive storytelling experiences, trackers, scrapers and news games. My job moved to 100% coding.",
+      text: "I created interactive storytelling experiences, trackers, scrapers and news games. My job moved to 100% coding.",
     },
   ],
   [
@@ -52,7 +52,7 @@ export const resumeMap = new Map([
     {
       title: "Newsroom Developer",
       publication: "Boston Globe",
-      text: "I get embedded with teams of reporters and editors in the newsroom to make their stories interactive or whatever custom coding needs they have. This includes news games, trackers, landing pages, and scrollytelling experiences.",
+      text: "I work with journalists from all newsroom departments to make their stories interactive. This includes coding news games, trackers, landing pages, and scrollytelling experiences.",
     },
   ],
 ]);

@@ -18,7 +18,9 @@ const Resume = () => {
 
   return (
     <div className="mx-5 mb-5">
-      <h2 className="text-3xl lato-thin ">{`>> where I've worked`}</h2>
+      <h2 className="sm:text-3xl sm:mx-5 sm:text-left text-center text-3xl lato-thin text-slate-900">
+        <span className="hidden sm:inline">{`>>`}</span> where I've worked
+      </h2>
       <div className="ml-5 mt-5">{resumeItems}</div>
     </div>
   );

@@ -21,7 +21,7 @@ const About = () => {
           id="subhed"
           className="sm:text-3xl text-lg lato-thin mx-5 text-slate-900"
         >
-          {`>> ${title}, ${workplace}`}
+          <span>{`>>`}</span> {title}, {workplace}
         </div>
         <div id="intro-text">
           <p className="text-md sm:text-lg mx-5 mt-5 lato-regular text-balance text-slate-700">
