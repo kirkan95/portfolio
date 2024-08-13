@@ -18,7 +18,7 @@ const Portfolio = () => {
           >
             <div id="portfolio-img" className="shrink-0">
               <img
-                src={`${import.meta.env.BASE_URL + object.imgSrc}`}
+                src={object.imgSrc}
                 alt={object.name}
                 className="aspect-square w-100 sm:h-[300px] border-8 border-white"
               />
