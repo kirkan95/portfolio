@@ -15,7 +15,7 @@ export const portfolioMap = new Map([
       name: "Charles Stuart Shooting",
       url: "https://apps.bostonglobe.com/metro/investigations/2023/12/charles-stuart/",
       imgSrc: "/stuart.jpg",
-      text: "The Globe newsroom collaborated with HBO Max to bring this multimedia package to life. We provided the web presentation and eight interactive story pages. This project won multiple national awards (Dart Center, IRE).",
+      text: "The Globe newsroom collaborated with HBO Max to bring this multimedia package to life. We provided the web presentation and eight interactive story pages. This project won multiple first-place, national awards (ONA: Best Feature, Murrow: Best News Documentary, Dart Award, IRE: Longform Journalism).",
       contribution:
         "All story pages, podcast page, first chapter scrolly experience",
     },
