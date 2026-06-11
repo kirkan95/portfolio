@@ -1,14 +1,13 @@
 import React from "react";
 import { FaLinkedin } from "react-icons/fa";
-import { FaTwitterSquare } from "react-icons/fa";
-import { IoMdMail } from "react-icons/io";
+import { FaBluesky, FaSquareXTwitter } from "react-icons/fa6";
 
 const Contact = () => {
   return (
     <div>
       <div id="subhed" className="text-3xl lato-thin mx-5 mt-20 mb-5">
         <h2 className="sm:text-3xl sm:mx-5 sm:text-left text-center text-3xl lato-thin text-slate-900 mb-5">
-          <span className="hidden sm:inline">{`>>`}</span> get in touch
+          <span className="text-accent">{`>>`}</span> get in touch
         </h2>
       </div>
       <div
@@ -20,15 +19,17 @@ const Contact = () => {
           target="_blank"
           rel="noreferrer"
         >
-          {" "}
-          <FaLinkedin className="w-10 h-10" />
+          <FaLinkedin className="w-10 h-10 text-slate-400 hover:text-accent transition-colors duration-200" />
         </a>
         <a href="https://x.com/kirkland_an" target="_blank" rel="noreferrer">
-          <FaTwitterSquare className="w-10 h-10" />
+          <FaSquareXTwitter className="w-10 h-10 text-slate-400 hover:text-accent transition-colors duration-200" />
         </a>
-
-        <a href="mailto:kirkland.an@globe.com">
-          <IoMdMail className="w-10 h-10" />
+        <a
+          href="https://bsky.app/profile/kirklandan.com"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <FaBluesky className="w-10 h-10 text-slate-400 hover:text-accent transition-colors duration-200" />
         </a>
       </div>
     </div>
